@@ -28,18 +28,54 @@ nav {
   width: 375px;
 }
 
-.arrow-left {
-  color: #007AFF
+.arrow-left, .menu {
+  color: #007AFF;
+  font-size: 20px;
+  width: 10%;
 }
 
 .title {
   color: black;
   font-size: 1.8em;
+  width: 70%;
   text-align: center;
-  margin-left: 50px;
 }
 
 .menu {
+  width: 10%;
+  text-align: right;
+}
+
+div > div {
+  float: left;
+}
+
+.line {
+  width: 10%;
+}
+
+.dest {
+  width: 80%;
+  text-align: center;
+}
+
+.freq {
+  width: 10%;
+  text-align: right;
+}
+
+.left {
+  width: 10%;
+}
+
+.center {
+  width: 80%;
+  text-align: center;
+}
+
+.right {
+  width: 10%;
+  text-align: right;
 }
 
 .bus-list {
@@ -52,26 +88,6 @@ nav {
   border-bottom: 1px solid rgb(100, 99, 99);
   display: flex;
   justify-content: space-between;
-}
-
-.table{
-  background-color: red;
-}
-
-th{                    /* header */
-  font-weight: bold;
-  font-size: 1.2em;
-  text-align: center;
-  padding-top: 10px;
-}
-
-tr {                     /* rows */
- text-align: center;
-}
-
-td {                       /* data */
-  padding-top: 10px;
-  padding-right: 5px;
 }
 
 h1 {                       /* direction */
