@@ -47,18 +47,17 @@ nav {
 }
 
 ul.titles {
-    background-color: #white;
     font-weight: bold;
+    padding-bottom: 5px;
 }
 
 ul.content {
-    background-color: #white;
-    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.content.target {
-  font-color: red;
-}
+/* #target {
+  background-color: red;
+} */
 
 li {
   display: inline-block;
@@ -66,30 +65,32 @@ li {
 
 li.line {
     width: 10%;
+    text-align: center;
 }
 
 li.dest {
-    width: 70%;
+    width: 60%;
     text-align: center;
 }
 
 li.freq {
-    width: 10%;
-    text-align: right;
+    width: 15%;
+    text-align: center;
 }
 
 li.left {
     width: 10%;
+    text-align: center;
 }
 
 li.center {
-    width: 70%;
+    width: 60%;
     text-align: center;
 }
 
 li.right {
-    width: 10%;
-    text-align: right;
+    width: 15%;
+    text-align: center;
 }
 
 .bus-list {
