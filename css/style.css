@@ -46,9 +46,6 @@ nav {
   text-align: right;
 }
 
-ul { padding-left:0
-}
-
 ul.titles {
     background-color: #white;
     font-weight: bold;
@@ -56,6 +53,11 @@ ul.titles {
 
 ul.content {
     background-color: #white;
+    padding-top: 10px;
+}
+
+.content.target {
+  font-color: red;
 }
 
 li {
@@ -90,7 +92,6 @@ li.right {
     text-align: right;
 }
 
-
 .bus-list {
   padding-top: 45px;
   background-color:rgb(214, 214, 214);
@@ -106,4 +107,5 @@ h1 {                       /* direction */
   line-height: 1.5;
   font-size: 1.5em;
   font-weight: bold;
+  padding-bottom: 5px;
 }
