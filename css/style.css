@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: #333;
+  background-color: #BDBDBD;
   font-family: sans-serif;
   font-size: 10px;
 }
@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-  background-color: #BDBDBD;
+  background-color: #EFEFF4;
   padding-left: 15px;
   position: fixed;
   width: 375px;
@@ -48,7 +48,7 @@ nav {
 
 ul.titles {
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 ul.content {
@@ -95,7 +95,7 @@ li.right {
 
 .bus-list {
   padding-top: 45px;
-  background-color:rgb(214, 214, 214);
+  background-color: #FFFFFF;
 }
 
 .location {
