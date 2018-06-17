@@ -46,37 +46,50 @@ nav {
   text-align: right;
 }
 
-div > div {
-  float: left;
+ul { padding-left:0
 }
 
-.line {
-  width: 10%;
+ul.titles {
+    background-color: #white;
+    font-weight: bold;
 }
 
-.dest {
-  width: 80%;
-  text-align: center;
+ul.content {
+    background-color: #white;
 }
 
-.freq {
-  width: 10%;
-  text-align: right;
+li {
+  display: inline-block;
 }
 
-.left {
-  width: 10%;
+li.line {
+    width: 10%;
 }
 
-.center {
-  width: 80%;
-  text-align: center;
+li.dest {
+    width: 70%;
+    text-align: center;
 }
 
-.right {
-  width: 10%;
-  text-align: right;
+li.freq {
+    width: 10%;
+    text-align: right;
 }
+
+li.left {
+    width: 10%;
+}
+
+li.center {
+    width: 70%;
+    text-align: center;
+}
+
+li.right {
+    width: 10%;
+    text-align: right;
+}
+
 
 .bus-list {
   padding-top: 45px;
@@ -86,7 +99,6 @@ div > div {
 .location {
   padding: 2.5% 15px;
   border-bottom: 1px solid rgb(100, 99, 99);
-  display: flex;
   justify-content: space-between;
 }
 
