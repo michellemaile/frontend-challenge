@@ -10,10 +10,14 @@ body {
   box-sizing: border-box;
 }
 
+.top {
+  background-color: #EFEFF4;
+}
+
 nav {
   background-color: #EFEFF4;
   padding-left: 15px;
-  position: fixed;
+  position: absolute;
   width: 375px;
   border: 10px;
   height: 45px;
@@ -46,6 +50,10 @@ nav {
   text-align: right;
 }
 
+.titles, .content {
+list-style-type: none;
+}
+
 ul.titles {
     font-weight: bold;
     padding-bottom: 10px;
@@ -54,10 +62,6 @@ ul.titles {
 ul.content {
     padding-bottom: 10px;
 }
-
-/* #target {
-  background-color: red;
-} */
 
 li {
   display: inline-block;
@@ -96,6 +100,7 @@ li.right {
 .bus-list {
   padding-top: 45px;
   background-color: #FFFFFF;
+  overflow-y: hidden;               /*  scrolling */
 }
 
 .location {
