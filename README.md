@@ -1,2 +1,2 @@
-# css-exercise-three
-CSS exercise focused on box model
+# front end challenge
+list view for busy bus
