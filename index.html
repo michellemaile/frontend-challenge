@@ -11,9 +11,11 @@
 
   <body>
     <section class="container"> 
+
       <div class="top">
-        <img src="images/base.png">
+        <img src="images/status.png" alt="status bar">
       </div>
+
       <nav>
         <div class="arrow-left">
           <i class="fas fa-chevron-left"></i>
@@ -33,16 +35,19 @@
               <li class=line>Line</li>
               <li class=dest>Destination</li>
               <li class=freq>Frequency</li>
+              <li class=arr>Arrives</li>
             </ul>
-            <ul class="content" id="target"> 
+            <ul class="content"> 
               <li class=left>60</li>
               <li class=center>Randolph/Harbor Dr</li>
               <li class=right>20 min</li>
+              <li class=time>10:01am</li>
             </ul>
             <ul class="content">
               <li class=left>124</li>
               <li class=center>Navy Pier</li>
               <li class=right>10 min</li>
+              <li class=time>9:51am</li>
             </ul>
           </div>
         </div>
@@ -54,11 +59,13 @@
               <li class=line>Line</li>
               <li class=dest>Destination</li>
               <li class=freq>Frequency</li>
+              <li class=arr>Arrives</li>
             </ul>
             <ul class="content">
               <li class=left>151</li>
               <li class=center>Devon/Clark</li>
               <li class=right>16 min</li>
+              <li class=time>9:57am</li>
             </ul>
           </div>
         </div>
@@ -70,16 +77,19 @@
               <li class=line>Line</li>
               <li class=dest>Destination</li>
               <li class=freq>Frequency</li>
+              <li class=arr>Arrives</li>
             </ul>
             <ul class="content">
               <li class=left>J14</li>
               <li class=center>103rd/Stony Island</li>
               <li class=right>15 min</li>
+              <li class=time>9:56am</li>
             </ul>
-            <ul class="content">
+            <ul class="content" id="target">
               <li class=left>124</li>
-              <li class=center>Navu Pier</li>
+              <li class=center>Navy Pier</li>
               <li class=right>10 min</li>
+              <li class=time>9:51am</li>
             </ul>
           </div>
         </div>
@@ -91,11 +101,13 @@
               <li class=line>Line</li>
               <li class=dest>Destination</li>
               <li class=freq>Frequency</li>
+              <li class=arr>Arrives</li>
             </ul>
             <ul class="content">
               <li class=left>6x</li>
               <li class=center>Jackson Park Express</li>
               <li class=right>N/A</li>
+              <li class=time>N/A</li>
             </ul>
           </div>
         </div>
@@ -107,25 +119,49 @@
               <li class=line>Line</li>
               <li class=dest>Destination</li>
               <li class=freq>Frequency</li>
+              <li class=arr>Arrives</li>
             </ul>
             <ul class="content">
               <li class=left>4</li>
               <li class=center>Cottage Grove</li>
               <li class=right>Resumes 12:10am</li>
+              <li class=time>TBD</li>
             </ul>
             <ul class="content">
               <li class=left>20</li>
               <li class=center>Madison</li>
               <li class=right>Resumes 12:10am</li>
+              <li class=time>TBD</li>
             </ul>
             <ul class="content">
               <li class=left>157</li>
               <li class=center>Streeterville/Taylor</li>
               <li class=right>Resumes 6:00am</li>
+              <li class=time>TBD</li>
             </ul>
           </div>
-        </div>
-          
+        </div> 
+      </section>
+
+      <section class ="map">    <!-- use of section vs div? */ -->
+        <!-- <img class="map" src="images/map.png" alt="map"> -->
+        <img class="NS" src="images/NS.png" alt="bus route">
+        <img class="WE" src="images/WE.png" alt="bus route">
+        <img class="you" src="images/you.png" alt="you are here">
+        <img class="bus" src="images/bus.png" alt="bus is here">
+        <img class="station" src="images/station.png" alt="station is here">
+        <img class="nearby" src="images/nearby.png" alt="get info/search nearby">
+        <img class="weather" src="images/weather.png" alt="weather">
+      </section>
+      
+      <section class="info">
+        <ul class="arrives">
+          <li class=arrs>Bus arrives in:</li>
+          <li class=mins>10 min</li>
+          <h4 class="when">.5mi 9:51am</h4>
+          <img class="pull" src="images/pull.png" alt="pull up">
+          <img class="exit" src="images/exit.png" alt="exit">
+
       </section>
     </section>
   </body>

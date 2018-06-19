@@ -12,7 +12,7 @@ body {
 
 .top {
   background-color: #EFEFF4;
-}
+ }
 
 nav {
   background-color: #EFEFF4;
@@ -25,11 +25,15 @@ nav {
   justify-content: flex-start;
   align-items: center;
   border-bottom: 1px solid rgb(100, 99, 99);
+  z-index: 1;
 }
 
 .container {
+  position: relative;
   margin: 0 auto;
   width: 375px;
+  height: 667px;
+  overflow: hidden;
 }
 
 .arrow-left, .menu {
@@ -51,16 +55,17 @@ nav {
 }
 
 .titles, .content {
-list-style-type: none;
+  list-style-type: none;
 }
 
 ul.titles {
-    font-weight: bold;
-    padding-bottom: 10px;
+  font-weight: bold;
+  padding-bottom: 5px;
 }
 
 ul.content {
-    padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 li {
@@ -68,18 +73,23 @@ li {
 }
 
 li.line {
-    width: 10%;
-    text-align: center;
+  width: 10%;
+  text-align: center;
 }
 
 li.dest {
-    width: 60%;
+    width: 40%;
     text-align: center;
 }
 
 li.freq {
-    width: 15%;
+    width: 25%;
     text-align: center;
+}
+
+li.arr {
+  width: 20%;
+  text-align: center;
 }
 
 li.left {
@@ -88,19 +98,34 @@ li.left {
 }
 
 li.center {
-    width: 60%;
+    width: 40%;
     text-align: center;
 }
 
 li.right {
-    width: 15%;
+    width: 25%;
     text-align: center;
 }
 
+li.time {
+  width: 20%;
+  text-align: center;
+  color: #007AFF;
+  font-weight: 600;
+}
+
+#target {
+  background-color: #FFCC00;
+}
+
 .bus-list {
-  padding-top: 45px;
+  position: absolute;
+  margin-top: 45px;
   background-color: #FFFFFF;
-  overflow-y: hidden;               /*  scrolling */
+  overflow-y: scroll;   
+  height: 260px;
+  width: 100%;
+  z-index: 1;
 }
 
 .location {
@@ -109,9 +134,108 @@ li.right {
   justify-content: space-between;
 }
 
-h1 {                       /* direction */
+h1 {                   
   line-height: 1.5;
   font-size: 1.5em;
   font-weight: bold;
   padding-bottom: 5px;
+}
+
+.map{
+  margin-top: 300px;
+  background-image: url(../images/map.png);
+  background-size: cover;
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.you {
+ position: absolute;
+ top: 180px;
+ right: 120px;
+}
+
+.bus {
+ position: absolute;
+ top: 90px;
+ left: 75px;
+}
+
+.station {
+  position: absolute;
+  top: 180px;
+  left: 180px;
+}
+
+.nearby {
+ position: absolute;
+ top: 10px;
+ right: 5px;
+}
+
+.weather {
+ position: absolute;
+ bottom: 88px;
+ right: 5px;
+}
+
+.exit {
+ position: absolute;
+ bottom: 25px;
+ right: 10px;
+}
+
+.pull {
+ position: absolute;
+ bottom: 60px;
+ right: 170px;
+}
+
+.info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #EFEFF4;
+  border-radius: 13px 13px 0 0;
+}
+
+.NS {
+ position: absolute;
+ top: 105px;
+ left: 80px;
+}
+
+.WE {
+ position: absolute;
+ left: 80px;
+ top: 225px;
+}
+
+.arrives {
+  padding: 20px 0 15px 0;
+}
+
+.arrs {
+ font-size: 20px;
+ padding-left: 10px;
+ width: 40%;
+ text-align: right;
+}
+
+.mins {
+  font-size: 20px;
+  color: #FFCC00;
+  width: 50%;
+  text-align: left;
+  font-weight: 500;
+}
+
+.when {
+  font-size: 15px;
+  color: grey;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 3px;
 }
