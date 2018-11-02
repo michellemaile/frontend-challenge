@@ -1,2 +1,2 @@
 # front end challenge
-list view for busy bus
+Created a list view screen for a transit app called BusyBus
